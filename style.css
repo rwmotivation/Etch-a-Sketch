@@ -1,0 +1,76 @@
+body{
+    background-color: mediumseagreen;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 90vh;
+    font-family: 'Notable', sans-serif;
+    background-image: url(https://images.pexels.com/photos/956999/milky-way-starry-sky-night-sky-star-956999.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260) ;
+    background-position: top;
+    opacity: 0.8;
+    color: white;
+}
+
+
+.grid {
+    background-color: white;
+    box-sizing: border-box;
+    border: 1px solid black;
+    
+}
+
+.container {
+    width: 608px;
+    height: 608px;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    /* overflow: hidden; */
+}
+
+.grid:hover {
+    transform: scale(1.1);
+    border: none;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    /* margin: 50px 0 50px 0; */
+    width: 608px;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Zhi Mang Xing', cursive;
+    font-weight: 300;
+    font-size: 120px;
+    line-height: 20px;
+    color: white;
+}
+
+.options {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.row2 {
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+
+
+/* TEXT BOX */
+.text {
+    width: 50px;
+    text-align: center;
+}
